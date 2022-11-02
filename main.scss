@@ -1,0 +1,9 @@
+@import "./sub","./sub2";
+// url 함수를 사용하지 않아도 정상적으로 동작됨, 확장자 명시하지 않아도 됨. 여러개의 파일들을 가지고 올 수 있음
+
+$color: royalblue;
+.container {
+  h1 {
+    color: $color;
+  }
+}
